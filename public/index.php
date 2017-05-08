@@ -87,7 +87,7 @@
         <h4>May 6, 2017 Joint General and Special Elections</h4>
         <h1 class="page-title">Precinct-by-precinct results</h1>
         <p class="author">By <a href="http://www.twitter.com/AASInteractive">Statesman Interactives</a>, Updated May 8, 2017</p>
-        <p>Text  <span style="font-weight: bold;"></span>>> <a href="http://www.statesman.com/news/gen-politics/2016-election-results/tKBwLAaC2OX47zcP0GVTiM/" target="_blank">Full election results</a></p>
+        <p>Use the dropdown to choose a race to see the highest vote-getter for each precinct in the May 6th election. Roll your cursor over each precinct on the map to see votes for all candidates in the selected race. Hover over a candidate's name in the map legend to see his or her support in each precinct. Results are from Travis and Williamson counties.  <span style="font-weight: bold;"></span>>> <a href="http://www.statesman.com/news/local-govt--politics/may-2017-election-results/KFRkz1Vr4MDbgWsa31vDBJ/" target="_blank">Full election results</a></p>
       </div>
 
       <div class="form-group clearfix">
@@ -97,119 +97,111 @@
 
 
 <!-- CITY ELECTIONS -->
+    <optgroup label="City governments">
 
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="bcc">COUNCIL MEMBER, CITY OF BEE CAVE</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="bcp">PROPOSITION, CITY OF BEE CAVE</option>
+<option data-zoom="1" data-center="30.310548, -97.966494" value="bcc">COUNCIL MEMBER, CITY OF BEE CAVE</option>
+<option data-zoom="1" data-center="30.310548, -97.966494" value="bcp">PROPOSITION, CITY OF BEE CAVE</option>
 
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="wlhp3">PLACE 3, CITY COUNCIL, CITY OF WEST LAKE HILLS</option>
+<option data-zoom="1" data-center="30.516190, -97.816178" value="cpp1">PLACE 1, COUNCIL, CITY OF CEDAR PARK</option>
+<option data-zoom="1" data-center="30.516190, -97.816178" value="cpp3">PLACE 3, COUNCIL, CITY OF CEDAR PARK</option>
+<option data-zoom="1" data-center="30.516190, -97.816178" value="cpp5">PLACE 5, COUNCIL, CITY OF CEDAR PARK</option>
 
-
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="cpp1">PLACE 1, COUNCIL, CITY OF CEDAR PARK</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="cpp3">PLACE 3, COUNCIL, CITY OF CEDAR PARK</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="cpp5">PLACE 5, COUNCIL, CITY OF CEDAR PARK</option>
-
-
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="fa">ALDERPERSONS, CITY OF FLORENCE</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="grm">MAYOR, CITY OF GRANGER</option>
+<!-- <option data-zoom="-1" data-center="30.329632, -97.758797" value="fa">ALDERPERSONS, CITY OF FLORENCE</option> -->
+<!-- <option data-zoom="-1" data-center="30.329632, -97.758797" value="grm">MAYOR, CITY OF GRANGER</option>
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="grcm">COUNCIL MEMBER, CITY OF GRANGER</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="hp1">City of Hutto, Council, Place 1</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="hp4">City of Hutto, Council, Place 4</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="hp1">City of Hutto, Proposition 1</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="hp2">City of Hutto, Proposition 2</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="hp3">City of Hutto, Proposition 3</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="hp4">City of Hutto, Proposition 4</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="hp5">City of Hutto, Proposition 5</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="hp6">City of Hutto, Proposition 6</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="hp7">City of Hutto, Proposition 7</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="hp8">City of Hutto, Proposition 8</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="hp9">City of Hutto, Proposition 9</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="hp10">City of Hutto, Proposition 10</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="hp11">City of Hutto, Proposition 11</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="hp12">City of Hutto, Proposition 12</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="hp13">City of Hutto, Proposition 13</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="hp14">City of Hutto, Proposition 14</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="hp15">City of Hutto, Proposition 15</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="hp16">City of Hutto, Proposition 16</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="hp17">City of Hutto, Proposition 17</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="hp18">City of Hutto, Proposition 18</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="hp19">City of Hutto, Proposition 19</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="hp20">City of Hutto, Proposition 20</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="hp21">City of Hutto, Proposition 21</option>
+ -->
+<option data-zoom="1" data-center="30.537251, -97.550303" value="hccp1">PLACE 1, COUNCIL, CITY OF HUTTO</option>
+<option data-zoom="1" data-center="30.537251, -97.550303" value="hccp4">PLACE 4, COUNCIL, CITY OF HUTTO</option>
+<option data-zoom="1" data-center="30.537251, -97.550303" value="hp1">PROP. 1, CITY OF HUTTO</option>
+<option data-zoom="1" data-center="30.537251, -97.550303" value="hp2">PROP. 2, CITY OF HUTTO</option>
+<option data-zoom="1" data-center="30.537251, -97.550303" value="hp3">PROP. 3, CITY OF HUTTO</option>
+<option data-zoom="1" data-center="30.537251, -97.550303" value="hp4">PROP. 4, CITY OF HUTTO</option>
+<option data-zoom="1" data-center="30.537251, -97.550303" value="hp5">PROP. 5, CITY OF HUTTO</option>
+<option data-zoom="1" data-center="30.537251, -97.550303" value="hp6">PROP. 6, CITY OF HUTTO</option>
+<option data-zoom="1" data-center="30.537251, -97.550303" value="hp7">PROP. 7, CITY OF HUTTO</option>
+<option data-zoom="1" data-center="30.537251, -97.550303" value="hp8">PROP. 8, CITY OF HUTTO</option>
+<option data-zoom="1" data-center="30.537251, -97.550303" value="hp9">PROP. 9, CITY OF HUTTO</option>
+<option data-zoom="1" data-center="30.537251, -97.550303" value="hp10">PROP. 10, CITY OF HUTTO</option>
+<option data-zoom="1" data-center="30.537251, -97.550303" value="hp11">PROP. 11, CITY OF HUTTO</option>
+<option data-zoom="1" data-center="30.537251, -97.550303" value="hp12">PROP. 12, CITY OF HUTTO</option>
+<option data-zoom="1" data-center="30.537251, -97.550303" value="hp13">PROP. 13, CITY OF HUTTO</option>
+<option data-zoom="1" data-center="30.537251, -97.550303" value="hp14">PROP. 14, CITY OF HUTTO</option>
+<option data-zoom="1" data-center="30.537251, -97.550303" value="hp15">PROP. 15, CITY OF HUTTO</option>
+<option data-zoom="1" data-center="30.537251, -97.550303" value="hp16">PROP. 16, CITY OF HUTTO</option>
+<option data-zoom="1" data-center="30.537251, -97.550303" value="hp17">PROP. 17, CITY OF HUTTO</option>
+<option data-zoom="1" data-center="30.537251, -97.550303" value="hp18">PROP. 18, CITY OF HUTTO</option>
+<option data-zoom="1" data-center="30.537251, -97.550303" value="hp19">PROP. 19, CITY OF HUTTO</option>
+<option data-zoom="1" data-center="30.537251, -97.550303" value="hp20">PROP. 20, CITY OF HUTTO</option>
+<option data-zoom="1" data-center="30.537251, -97.550303" value="hp21">PROP. 21, CITY OF HUTTO</option>
 
+<option data-zoom="1" data-center="30.354910, -97.978074" value="lwcc">COUNCILMEMBERS, CITY OF LAKEWAY</option>
+<option data-zoom="1" data-center="30.354910, -97.978074" value="lwp1">PROP. 1, CITY OF LAKEWAY</option>
+<option data-zoom="1" data-center="30.354910, -97.978074" value="lwp2">PROP. 2, CITY OF LAKEWAY</option>
 
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="lwcc">COUNCILMEMBERS, CITY OF LAKEWAY</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="lwp1">PROP. 1, CITY OF LAKEWAY</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="lwp2">PROP. 2, CITY OF LAKEWAY</option>
+<option data-zoom="1" data-center="30.519349, -97.658259" value="rrm">MAYOR, CITY OF ROUND ROCK</option>
+<option data-zoom="1" data-center="30.519349, -97.658259" value="rrcp1">PLACE 1, COUNCIL, CITY OF ROUND ROCK</option>
+<option data-zoom="1" data-center="30.519349, -97.658259" value="rrcp4">PLACE 4, COUNCIL, CITY OF ROUND ROCK</option>
+<option data-zoom="1" data-center="30.519349, -97.658259" value="rrp1">PROP. 1, CITY OF ROUND ROCK</option>
+<option data-zoom="1" data-center="30.519349, -97.658259" value="rrp2">PROP. 2, CITY OF ROUND ROCK</option>
+<option data-zoom="1" data-center="30.519349, -97.658259" value="rrp3">PROP. 3, CITY OF ROUND ROCK</option>
+<option data-zoom="1" data-center="30.519349, -97.658259" value="rrp4">PROP. 4, CITY OF ROUND ROCK</option>
 
+<option data-zoom="1" data-center="30.570777, -97.404174" value="tc">CITY COUNCIL AT LARGE, CITY OF TAYLOR</option>
 
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="rrm">MAYOR, CITY OF ROUND ROCK</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="rrcp1">PLACE 1, COUNCIL, CITY OF ROUND ROCK</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="rrcp4">PLACE 4, COUNCIL, CITY OF ROUND ROCK</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="rrp1">PROPOSITION 1, CITY OF ROUND ROCK</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="rrp2">PROPOSITION 2, CITY OF ROUND ROCK</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="rrp3">PROPOSITION 3, CITY OF ROUND ROCK</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="rrp4">PROPOSITION 4, CITY OF ROUND ROCK</option>
-
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="tc">City of Taylor, City Council At Large</option>
-
+<option data-zoom="2" data-center="30.291624, -97.807488" value="wlhp3">PLACE 3, CITY COUNCIL, CITY OF WEST LAKE HILLS</option>
+    </optgroup>
 <!-- ISD ELECTIONS -->
+    <optgroup label="School districts">
+<option data-zoom="0" data-center="30.664183, -97.604925" value="gisdp4">PLACE 4, TRUSTEE, GEORGETOWN ISD</option>
+<option data-zoom="0" data-center="30.664183, -97.604925" value="gisdp5">PLACE 5, TRUSTEE, GEORGETOWN ISD</option>
+<option data-zoom="1" data-center="30.713897, -97.444614" value="gisdt">TRUSTEES, GRANGER ISD</option>
 
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="pisdp2">PLACE 2, BOARD OF TRUSTEES, UNEXPIRED TERM, PFLUGERVILLE ISD</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="pisdp7">PLACE 7, BOARD OF TRUSTEES, PFLUGERVILLE ISD</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="pisdp6">PLACE 6, BOARD OF TRUSTEES, PFLUGERVILLE ISD</option>
+<option data-zoom="1" data-center="30.537251, -97.550303" value="hisdt">BOARD OF TRUSTEES, HUTTO ISD</option>
 
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="hisdt">Hutto ISD, Board of Trustees</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="tisdt">Thrall ISD, Trustees (At Large)</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="lhisdp1">Liberty Hill ISD, Trustee, Place 1</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="lhisdp2">Liberty Hill ISD, Trustee, Place 2</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="gisdp4">Georgetown ISD, Trustee, Place 4</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="gisdp5">Georgetown ISD, Trustee, Place 5</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="gisdt">Granger ISD, Trustees</option>
+<option data-zoom="1" data-center="30.663138, -97.897926" value="lhisdp1">PLACE 1, TRUSTEE, LIBERTY HILL ISD</option>
+<option data-zoom="1" data-center="30.663138, -97.897926" value="lhisdp2">PLACE 2, TRUSTEE, LIBERTY HILL ISD</option>
 
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="rrisdp1">PROPOSITION NO. 1, ROUND ROCK ISD</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="rrisdp2">PROPOSITION NO. 2, ROUND ROCK ISD</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="rrisdp3">PROPOSITION NO. 3, ROUND ROCK ISD</option>
+<option data-zoom="1" data-center="30.400446, -97.544370" value="pisdp2">PLACE 2, BOARD OF TRUSTEES, UNEXPIRED TERM, PFLUGERVILLE ISD</option>
+<option data-zoom="1" data-center="30.400446, -97.544370" value="pisdp7">PLACE 7, BOARD OF TRUSTEES, PFLUGERVILLE ISD</option>
+<option data-zoom="1" data-center="30.400446, -97.544370" value="pisdp6">PLACE 6, BOARD OF TRUSTEES, PFLUGERVILLE ISD</option>
 
+<option data-zoom="1" data-center="30.512731, -97.686667" value="rrisdp1">PROP. 1, ROUND ROCK ISD</option>
+<option data-zoom="1" data-center="30.512731, -97.686667" value="rrisdp2">PROP. 2, ROUND ROCK ISD</option>
+<option data-zoom="1" data-center="30.512731, -97.686667" value="rrisdp3">PROP. 3, ROUND ROCK ISD</option>
+
+<option data-zoom="1" data-center="30.587394, -97.298329" value="tisdt">TRUSTEES (AT LARGE), THRALL ISD</option>
+    </optgroup>
 <!-- UTILITY DISTRICTS -->
+    <optgroup label="Utility districts">
+<option data-zoom="1" data-center="30.696756, -97.654383" value="esd8">EMERGENCY SERVICES, EMERGENCY SERVICES DISTRICT 8</option>
+<option data-zoom="2" data-center="30.594562, -97.775233" value="esd8a">ANNEX ANNEX EMERGENCY, EMERGENCY SERVICES DISTRICT 8</option>
+<option data-zoom="1" data-center="30.521537, -97.661993" value="esd9">EMERGENCY SERVICES, EMERGENCY SERVICES DISTRICT 9</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="esd9a">ANNEX ANNEX EMERGENCY, EMERGENCY SERVICES DISTRICT 9</option>
+<option data-zoom="1" data-center="30.309775, -97.807579" value="tes9p1">PROP. 1, TRAVIS COUNTY EMERGENCY SERVICES DISTRICT NO. 9</option>
+<option data-zoom="1" data-center="30.458112, -97.885159" value="tes14p1">PROP. 1, TRAVIS COUNTY EMERGENCY SERVICES DISTRICT NO. 14</option>
+<option data-zoom="1" data-center="30.148458, -97.697331" value="tes15p">PROPOSITON, TRAVIS COUNTY EMERGENCY SERVICES DISTRICT NO. 15</option>
+<option data-zoom="2" data-center="30.425641, -97.542582" value="m23d">PERMANENT DIRECTORS, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 23</option>
+<option data-zoom="1" data-center="30.425641, -97.542582" value="m23p1">PROP. 1, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 23</option>
+<option data-zoom="1" data-center="30.425641, -97.542582" value="m23p2">PROP. 2, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 23</option>
+<option data-zoom="1" data-center="30.425641, -97.542582" value="m23p3">PROP. 3, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 23</option>
+<option data-zoom="1" data-center="30.425641, -97.542582" value="m23p4">PROP. 4, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 23</option>
+<option data-zoom="1" data-center="30.425641, -97.542582" value="m23p5">PROP. 5, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 23</option>
+<option data-zoom="1" data-center="30.425641, -97.542582" value="m23p6">PROP. 6, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 23</option>
+<option data-zoom="1" data-center="30.425641, -97.542582" value="m24d">PERMANENT DIRECTORS, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 24</option>
+<option data-zoom="1" data-center="30.425641, -97.542582" value="m24p1">PROP. 1, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 24</option>
+<option data-zoom="1" data-center="30.425641, -97.542582" value="m24p2">PROP. 2, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 24</option>
+<option data-zoom="1" data-center="30.425641, -97.542582" value="m24p3">PROP. 3, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 24</option>
+<option data-zoom="1" data-center="30.425641, -97.542582" value="m24p4">PROP. 4, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 24</option>
+<option data-zoom="1" data-center="30.425641, -97.542582" value="m24p5">PROP. 5, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 24</option>
+<option data-zoom="1" data-center="30.425641, -97.542582" value="m24p6">PROP. 6, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 24</option>
+<!-- <option data-zoom="-1" data-center="30.329632, -97.758797" value="m34p1">MUD 34 PROP. 1 WILLIAMSON COUNTY MUD 34</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="m34p2">MUD 34 PROP. 2 WILLIAMSON COUNTY MUD 34</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="m34p3">MUD 34 PROP. 3 WILLIAMSON COUNTY MUD 34</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="m34p4">MUD 34 PROP. 4 WILLIAMSON COUNTY MUD 34</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="m34p5">MUD 34 PROP. 5 WILLIAMSON COUNTY MUD 34</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="m34p6">MUD 34 PROP. 6 WILLIAMSON COUNTY MUD 34</option>
+ -->    </optgroup>
 
-
-
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="m23d">PERMANENT DIRECTORS, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 23</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="m23p1">PROP. 1, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 23</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="m23p2">PROP. 2, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 23</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="m23p3">PROP. 3, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 23</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="m23p4">PROP. 4, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 23</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="m23p5">PROP. 5, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 23</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="m23p6">PROP. 6, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 23</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="m24d">PERMANENT DIRECTORS, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 24</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="m24p1">PROP. 1, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 24</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="m24p2">PROP. 2, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 24</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="m24p3">PROP. 3, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 24</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="m24p4">PROP. 4, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 24</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="m24p5">PROP. 5, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 24</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="m24p6">PROP. 6, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 24</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="tes9p1">PROP. 1, TRAVIS COUNTY EMERGENCY SERVICES DISTRICT NO. 9</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="tes14p1">PROP. 1, TRAVIS COUNTY EMERGENCY SERVICES DISTRICT NO. 14</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="tes15p">PROPOSITON, TRAVIS COUNTY EMERGENCY SERVICES DISTRICT NO. 15</option>
-
-
-
-# williamson only
-
-
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="m34p1">MUD 34 Proposition 1 WILLIAMSON COUNTY MUD 34</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="m34p2">MUD 34 Proposition 2 WILLIAMSON COUNTY MUD 34</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="m34p3">MUD 34 Proposition 3 WILLIAMSON COUNTY MUD 34</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="m34p4">MUD 34 Proposition 4 WILLIAMSON COUNTY MUD 34</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="m34p5">MUD 34 Proposition 5 WILLIAMSON COUNTY MUD 34</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="m34p6">MUD 34 Proposition 6 WILLIAMSON COUNTY MUD 34</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="esd8">Emergency Services District 8 EMERGENCY SERVICES</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="esd8a">Emergency Services District 8 ANNEX ANNEX EMERGENCY</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="esd9">Emergency Services District 9 EMERGENCY SERVICES</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="esd9a">Emergency Services District 9 ANNEX ANNEX EMERGENCY</option>
-
-
-          </optgroup>
           </select>
         </div>
         <div class="col-lg-6">
