@@ -64,13 +64,13 @@ view `travis_opposed_races_20161108`:
 
 ``` sql
 SELECT
-    `travis_20161108`.`Contest_Id` AS `Contest_Id` ,
-    `travis_20161108`.`Contest_title` AS `Contest_title` ,
+    `Contest_Id`,
+    `Contest_title`,
     count(
-        DISTINCT `travis_20161108`.`candidate_name`
+        DISTINCT `candidate_name`
     ) AS `candidates`
 FROM
-    `travis_20161108`
+    `travis_20170506` /* update table name */
 GROUP BY
     1
 HAVING
@@ -85,39 +85,22 @@ ORDER BY
 I then used an INNER JOIN to filter the result table based on only the contest_Id's in the opposed races view.
 
 - It is here that I filtered out the "W" and "H" races as needed.
-- In 20161108 I also excluded the write-in candidates for President.
 - If a runoff election, you don't need to join to the contested races view
 
 ``` sql
 SELECT
-    Travis_20161108.Precinct_name ,
-    Travis_20161108.Contest_title ,
-    Travis_20161108.candidate_name ,
-    Travis_20161108.Party_Code ,
+    Travis_20170506.Precinct_name ,
+    Travis_20170506.Contest_title ,
+    Travis_20170506.candidate_name ,
+    Travis_20170506.Party_Code ,
     sum(
-        `Travis_20161108`.`total_votes`
+        `Travis_20170506`.`total_votes`
     ) AS total_votes
 FROM
-    Travis_20161108
-JOIN travis_opposed_20161108 ON Travis_20161108.Contest_Id = travis_opposed_20161108.Contest_Id
-WHERE
-    candidate_name NOT IN(
-        "Darrell L. Castle / Scott N. Bradley" ,
-        "Scott Cobbler / Michael Rodriguez" ,
-        "Cherunda Fox / Roger Kushner" ,
-        "Tom Hoefling / Steve Scholin" ,
-        "Laurence Kotlikoff / Edward Leamer" ,
-        "Jonathan Lee / Jeffrey Erskine" ,
-        "Michael A. Maturen / Juan A. Munoz" ,
-        "Evan McMullin / Nathan Johnson" ,
-        "Monica Moorehead / Lamont Lilly" ,
-        "Robert Morrow / Todd Sanders" ,
-        "Emidio Soltysik / Angela Walker" ,
-        "Dale Steffes / Paul E. Case" ,
-        "Tony Valdivia / Aaron Barriere"
-    )
+    Travis_20170506
+JOIN travis_opposed_20170506 ON Travis_20170506.Contest_Id = travis_opposed_20170506.Contest_Id
     # excludes Hays and Williamson spillover precincts 
-    and left(Precinct_name,1) not in ("W","H")
+    WHERE left(Precinct_name,1) not in ("W","H")
 GROUP BY
     1 ,
     2 ,
@@ -148,7 +131,6 @@ Parts of the City of Austin dips into Williamson county and you have to be cogni
 
 * If you are pulling from the Travis results, then you can put those results in your `williamsons_results_YYYYMMDD.csv` file with the "W" removed from the precinct name, so they can be processed by the `results.py` script, which will add the W back as needed. If you want only the Williamson precincts, then you can include `left(Precinct_name,1) in ("W")` in the WHERE statement to filter for them.
 * NOTE: If there are no Williamson county results at all, you have to keep/make that `williamsons_results_YYYYMMDD.csv` file with a header or edit the the `races.py` script to not consider the williamson file. Williamson County Elections take longer to get precinct-level results to us. You might want to run with the Travis version of their results while you wait on the rest of their races.
-* In 20161108, in the OpenRefine step noted above, I exported those records separately before removing them, but they are actually in the Williamson county results.
 
 ### Hays county precincts in Travis results
 
@@ -177,8 +159,8 @@ Since these results get combined with the Travis County results for the same rac
 
 For 20161108 I did this in OpenRefine. The goals were:
 
-- Remove BALLOTS CAST - TOTAL as a race (This can be handled in query later)
 - Rename candidate_name Yes, No, For, Against to take out Spanish translation
+- I fixed contest_titles for Pflugerville ISD to make them consistent.
 - Rename candidate_names to remove " Party" to match Travis
 
 For 20161213 runoff I didn't use OpenRefine because I just excluded the extra titles in the mysql query later.
@@ -260,10 +242,10 @@ We need a list of contest titles for two reason: to build the array for the `rac
 
 ``` sql
 SELECT DISTINCT
-    Travis_20161108.Contest_title
+    `Travis_20170506`.Contest_title
 FROM
-    Travis_20161108
-JOIN travis_opposed_20161108 ON Travis_20161108.Contest_Id = travis_opposed_20161108.Contest_Id
+    Travis_20170506
+JOIN travis_opposed_20170506 ON Travis_20170506.Contest_Id = travis_opposed_20170506.Contest_Id
 ```
 
 ### Williamson
@@ -311,6 +293,8 @@ If there are races in both Travis and Williamson counties, you have to add the W
 ```
 
 Then you need to list new 'build_race_file' arrays parts for the races that are only in Williamson.
+
+Williamson Round Rock ISD `30.512731, -97.686667`
 
 ## Titles for `index.php` races dropdown
 

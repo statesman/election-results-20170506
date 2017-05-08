@@ -48,46 +48,46 @@ def build_race_file(target_races, filename):
   running_vote_total = 0
   precinct_data = {}
 
-  # Loop through Travis results and add them to precinct data
-  # with open('results/travis_results_20161108.csv', 'rb') as input_file:
+  #Loop through Travis results and add them to precinct data
+  with open('results/travis_results_20170506.csv', 'rb') as input_file:
 
-  #   # Open a reader for the input file
-  #   results = csv.reader(input_file, delimiter=',')
-  #   next(results, None)
+    # Open a reader for the input file
+    results = csv.reader(input_file, delimiter=',')
+    next(results, None)
 
-  #   # Loop over the input, parse & write the new file
-  #   for row in results:
+    # Loop over the input, parse & write the new file
+    for row in results:
 
-  #     # Pull our data from the CSV columns
-  #     precinct = row[0]
-  #     in_county = is_in_county(precinct)
-  #     candidate_name = row[2]
-  #     total_votes = int(row[4])
-  #     race = row[1]
-  #     party = row[3]
+      # Pull our data from the CSV columns
+      precinct = row[0]
+      in_county = is_in_county(precinct)
+      candidate_name = row[2]
+      total_votes = int(row[4])
+      race = row[1]
+      party = row[3]
 
-  #     if race in target_races and in_county:
+      if race in target_races and in_county:
 
-  #       if current_precinct != precinct and current_precinct != None:
-  #         if running_vote_total > 0:
-  #           write_precinct_data(races, current_precinct, precinct_data)
+        if current_precinct != precinct and current_precinct != None:
+          if running_vote_total > 0:
+            write_precinct_data(races, current_precinct, precinct_data)
 
-  #         races = []
-  #         running_vote_total = 0
+          races = []
+          running_vote_total = 0
 
-  #       races.append({
-  #         'candidate': candidate_name,
-  #         'votes': total_votes,
-  #         'party': party
-  #       })
+        races.append({
+          'candidate': candidate_name,
+          'votes': total_votes,
+          'party': party
+        })
 
-  #       current_precinct = precinct
+        current_precinct = precinct
 
-  #       # Keep a running vote total to calculate the percentage down the road
-  #       running_vote_total = running_vote_total + total_votes
+        # Keep a running vote total to calculate the percentage down the road
+        running_vote_total = running_vote_total + total_votes
 
-  #   # Write the last row
-  #   write_precinct_data(races, current_precinct, precinct_data)
+    # Write the last row
+    write_precinct_data(races, current_precinct, precinct_data)
 
   # Loop through Williamson results and add them to precinct data
   with open('results/williamson_results_20170506.csv', 'rb') as input_file:
@@ -129,7 +129,7 @@ def build_race_file(target_races, filename):
         running_vote_total = running_vote_total + total_votes
 
   # Loop through Hays county results from city of austin and add them to the precinct data
-  # with open('results/travis_hays_results_20161108.csv', 'rb') as input_file:
+  # with open('results/travis_hays_results_20170506.csv', 'rb') as input_file:
 
   #   # Open a reader for the input file
   #   results = csv.reader(input_file, delimiter=',')
@@ -189,12 +189,49 @@ def build_race_file(target_races, filename):
   json_out = open('public/race-data/' + filename + '.json', 'w')
   json_out.write(simplejson.dumps(geo))
   json_out.close()
-build_race_file(["Round Rock ISD Proposition 1"], 'rrisdp1')
-build_race_file(["Round Rock ISD Proposition 2"], 'rrisdp2')
-build_race_file(["Round Rock ISD Proposition 3"], 'rrisdp3')
-build_race_file(["Pl 6, Board of Trustees, PflugervilleISD PFLUGERVILLE"], 'pvisdp6')
-build_race_file(["Pl 7, Board of Trustees, PflugervilleISD PFLUGERVILLE"], 'pvisdp7')
-build_race_file(["Pl 2 Board of Trustees, PflugervilleISD PFLUGERVILLE ISD"], 'pvisdp2')
+build_race_file(["PLACE 6, BOARD OF TRUSTEES, PFLUGERVILLE ISD", "Pl 6, Board of Trustees, Pflugerville ISD"], 'pisdp6')
+build_race_file(["PLACE 2, BOARD OF TRUSTEES, UNEXPIRED TERM, PFLUGERVILLE ISD", "Pl 2, Board of Trustees, Pflugerville ISD"], 'pisdp2')
+build_race_file(["MAYOR, CITY OF ROUND ROCK", "City of Round Rock, Mayor"], 'rrm')
+build_race_file(["PLACE 1, COUNCIL, CITY OF ROUND ROCK", "City of Round Rock, Council, Place 1"], 'rrcp1')
+build_race_file(["PLACE 4, COUNCIL, CITY OF ROUND ROCK", "City of Round Rock, Council, Place 4"], 'rrcp4')
+build_race_file(["PROPOSITION 1, CITY OF ROUND ROCK", "City of Round Rock, Proposition 1"], 'rrp1')
+build_race_file(["PROPOSITION 2, CITY OF ROUND ROCK", "City of Round Rock, Proposition 2"], 'rrp2')
+build_race_file(["PROPOSITION 3, CITY OF ROUND ROCK", "City of Round Rock, Proposition 3"], 'rrp3')
+build_race_file(["PROPOSITION 4, CITY OF ROUND ROCK", "City of Round Rock, Proposition 4"], 'rrp4')
+build_race_file(["PROPOSITION NO. 1, ROUND ROCK ISD", "Round Rock ISD Proposition 1"], 'rrisdp1')
+build_race_file(["PROPOSITION NO. 2, ROUND ROCK ISD", "Round Rock ISD Proposition 2"], 'rrisdp2')
+build_race_file(["PROPOSITION NO. 3, ROUND ROCK ISD", "Round Rock ISD Proposition 3"], 'rrisdp3')
+build_race_file(["PERMANENT DIRECTORS, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 23"], 'm23d')
+build_race_file(["PROP. 1, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 23"], 'm23p1')
+build_race_file(["PROP. 2, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 23"], 'm23p2')
+build_race_file(["PROP. 3, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 23"], 'm23p3')
+build_race_file(["PROP. 4, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 23"], 'm23p4')
+build_race_file(["PROP. 5, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 23"], 'm23p5')
+build_race_file(["PROP. 6, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 23"], 'm23p6')
+build_race_file(["PERMANENT DIRECTORS, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 24"], 'm24d')
+build_race_file(["PROP. 1, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 24"], 'm24p1')
+build_race_file(["PROP. 2, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 24"], 'm24p2')
+build_race_file(["PROP. 3, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 24"], 'm24p3')
+build_race_file(["PROP. 4, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 24"], 'm24p4')
+build_race_file(["PROP. 5, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 24"], 'm24p5')
+build_race_file(["PROP. 6, TRAVIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 24"], 'm24p6')
+build_race_file(["PROP. 1, TRAVIS COUNTY EMERGENCY SERVICES DISTRICT NO. 9"], 'tes9p1')
+build_race_file(["PROPOSITION NO. 1, TRAVIS COUNTY EMERGENCY SERVICES DISTRICT NO. 14"], 'tes14p1')
+build_race_file(["COUNCILMEMBERS, CITY OF LAKEWAY"], 'lwcc')
+build_race_file(["PROP. 1, CITY OF LAKEWAY"], 'lwp1')
+build_race_file(["PROP. 2, CITY OF LAKEWAY"], 'lwp2')
+build_race_file(["COUNCIL MEMBER, CITY OF BEE CAVE"], 'bcc')
+build_race_file(["PROPOSITION, CITY OF BEE CAVE"], 'bcp')
+build_race_file(["PLACE 3, CITY COUNCIL, CITY OF WEST LAKE HILLS"], 'wlhp3')
+build_race_file(["PLACE 3, COUNCIL, CITY OF CEDAR PARK"], 'cpp3')
+build_race_file(["PLACE 5, COUNCIL, CITY OF CEDAR PARK"], 'cpp5')
+build_race_file(["PROPOSITON, TRAVIS COUNTY EMERGENCY SERVICES DISTRICT NO. 15"], 'tes15p')
+
+
+
+# williamson only
+
+build_race_file(["Pl 7, Board of Trustees, Pflugerville ISD"], 'pisdp7')
 build_race_file(["Hutto ISD, Board of Trustees"], 'hisdt')
 build_race_file(["Granger ISD, Trustees"], 'gisdt')
 build_race_file(["Thrall ISD, Trustees (At Large)"], 'tisdt')
@@ -209,13 +246,6 @@ build_race_file(["City of Taylor, City Council At Large"], 'tc')
 build_race_file(["City of Cedar Park, Council, Place 1"], 'cpp1')
 build_race_file(["City of Hutto, Council, Place 1"], 'hp1')
 build_race_file(["City of Hutto, Council, Place 4"], 'hp4')
-build_race_file(["City of Round Rock, Mayor"], 'rrm')
-build_race_file(["City of Round Rock, Council, Place 1"], 'rrcp1')
-build_race_file(["City of Round Rock, Council, Place 4"], 'rrcp4')
-build_race_file(["City of Round Rock, Proposition 1"], 'rrp1')
-build_race_file(["City of Round Rock, Proposition 2"], 'rrp2')
-build_race_file(["City of Round Rock, Proposition 3"], 'rrp3')
-build_race_file(["City of Round Rock, Proposition 4"], 'rrp4')
 build_race_file(["MUD 34 Proposition 1 WILLIAMSON COUNTY MUD 34"], 'm34p1')
 build_race_file(["MUD 34 Proposition 2 WILLIAMSON COUNTY MUD 34"], 'm34p2')
 build_race_file(["MUD 34 Proposition 3 WILLIAMSON COUNTY MUD 34"], 'm34p3')
