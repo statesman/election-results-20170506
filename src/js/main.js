@@ -26,7 +26,7 @@
     var map = new ElectionMap('#map');
 
     // default race to show
-    var defaultRace = 'r-auscc-d10';
+    var defaultRace = 'rrisdp1';
 
     if(window.location.hash) {
       defaultRace = window.location.hash.slice(1);

@@ -2,7 +2,7 @@ var ElectionMap = (function($, GMaps, google){
 
   function ElectionMap(el, keyEl) {
     this.defaults = {
-      center: [30.351410, -97.795411],
+      center: [30.512731, -97.686667],
       zoom: 10
     };
 

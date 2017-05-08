@@ -193,15 +193,15 @@ I created a view that includes only races that have more than one candidate simi
 
 ``` sql
 SELECT
-    `williamson_20161108`.`contest_id` AS `contest_id` ,
+    `contest_id`,
     count(
-        DISTINCT `williamson_20161108`.`candidate_name`
+        DISTINCT `candidate_name`
     ) AS `candidates`
 FROM
-    `williamson_20161108`
+    `williamson_20161108` /* update table name */
 WHERE
     (
-        `williamson_20161108`.`candidate_name` NOT IN(
+        `candidate_name` NOT IN(
             'OVER VOTES' ,
             'UNDER VOTES' ,
             'BALLOTS CAST - TOTAL' ,
@@ -244,7 +244,11 @@ GROUP BY
     4
 ```
 
-The results of this file are exported as csv into the `results` directory and then references in the `races.py` script for the williamson portion.
+The results of this file are exported as csv into the `results` directory, making sure that two things were selected (using Navicat):
+    - Include column titles
+    - Text qualifier as doublequotes.
+
+The result was then referenced in the `races.py` script for the williamson portion.
 
 ## Contest titles
 
@@ -279,8 +283,8 @@ JOIN williamson_opposed_20161108 ON williamson_20161108.contest_id = williamson_
 I then took each line of that file and started creating the python array in a file called `travis_titles_array_20161108.py` which is saved. It looks something like this:
 
 ``` python
-build_race_file(["PRESIDENT - DEM"], 'p-d')
-build_race_file(["DISTRICT 35, UNITED STATES REPRESENTATIVE - DEM"], 'rd35-d')
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="p-d">PRESIDENT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="rd35-d">DISTRICT 35, UNITED STATES REPRESENTATIVE - DEM</option>
 ```
 
 Regex find:
@@ -302,7 +306,7 @@ This list of races goes at the bottom of the `races.py` file.
 If there are races in both Travis and Williamson counties, you have to add the Williamson title to the array"
 
 ``` python
-build_race_file(["PRESIDENT", "President and Vice-President FEDERAL"], 'pres')
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="pres">PRESIDENT", "President and Vice-President FEDERAL</option>
 
 ```
 

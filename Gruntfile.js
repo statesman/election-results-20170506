@@ -9,7 +9,7 @@ module.exports = function(grunt) {
     site_dir: "databases",
 
     // the endpoint to publish to
-    site_path: "election-map-20161108",
+    site_path: "election-map-20170506",
 
     // name of your notifier slack bot
     slack_username: "Ballot Bot",
