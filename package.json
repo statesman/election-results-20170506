@@ -1,0 +1,41 @@
+{
+  "name": "20160506-precinct-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/statesman/election-results-20160507.git"
+  },
+  "author": "Christian McDonald <cmcdonald@statesman.com>",
+  "bugs": {
+    "url": "hhttps://github.com/statesman/election-results-20160507/issues"
+  },
+  "homepage": "https://github.com/statesman/election-results-20160507/",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bootlint": "^0.9.1",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-handlebars": "^0.9.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-ftpush": "^0.3.3",
+    "grunt-slack-hook": "0.0.4",
+    "request": "^2.72.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.7.0",
+    "geocomplete": "~1.6.4",
+    "gmaps": "~0.4.15",
+    "grunt-contrib-less": "^0.12.0",
+    "handlebars": "~2.0.0",
+    "jquery": "^3.1.1",
+    "numeral": "~1.5.3",
+    "underscore": "~1.7.0"
+  }
+}
