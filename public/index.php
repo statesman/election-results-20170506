@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <?php
   $meta = array(
-    "title" => "May 6, 2017 general and special election results by precinct  | Statesman.com",
-    "description" => "Precinct-level results for the May. 6, 2017 general and special elections for Travis and Williamson counties.",
+    "title" => "May 6, 2017 election results by precinct  | Statesman.com",
+    "description" => "Precinct-level results for the May. 6, 2017 joint general and special elections for Travis and Williamson counties.",
     "thumbnail" => "http://projects.statesman.com/databases/election-map-20170506/assets/precinct-map-share-image.jpg",
     "shortcut_icon" => "http://projects.statesman.com/databases/election-map-20170506/assets/favicon.ico",
     "apple_touch_icon" => "http://projects.statesman.com/databases/election-map-20170506/assets/apple-touch-icon.png",

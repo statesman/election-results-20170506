@@ -26,7 +26,7 @@
     var map = new ElectionMap('#map');
 
     // default race to show
-    var defaultRace = 'rrisdp1';
+    var defaultRace = 'bcc';
 
     if(window.location.hash) {
       defaultRace = window.location.hash.slice(1);
