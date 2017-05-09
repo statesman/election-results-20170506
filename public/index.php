@@ -87,7 +87,7 @@
         <h4>May 6, 2017 Joint General and Special Elections</h4>
         <h1 class="page-title">Precinct-by-precinct results</h1>
         <p class="author">By <a href="http://www.twitter.com/AASInteractive">Statesman Interactives</a>, Updated May 8, 2017</p>
-        <p>Use the dropdown to choose a race to see the vote breakdown for each precinct in the May 6th election. Roll your cursor over each precinct on the map to see votes for all candidates in the selected race. Hover over a candidate's name in the map legend to see the level of support for a candidate or proposition in each precinct. Results are from Travis and Williamson counties.  <span style="font-weight: bold;"></span>>> <a href="http://www.statesman.com/news/local-govt--politics/may-2017-election-results/KFRkz1Vr4MDbgWsa31vDBJ/" target="_blank">Full election results</a></p>
+        <p>Use the dropdown to choose a race to see the vote breakdown for each precinct in the May 6th election. Roll your cursor over (or tap) each precinct on the map to see votes for all candidates in the selected race. Hover over (or tap) a candidate's name in the map legend to see the level of support for a candidate or proposition in each precinct. Results are from Travis and Williamson counties.  <span style="font-weight: bold;"></span>>> <a href="http://www.statesman.com/news/local-govt--politics/may-2017-election-results/KFRkz1Vr4MDbgWsa31vDBJ/" target="_blank">Full election results</a></p>
       </div>
 
       <div class="form-group clearfix">
