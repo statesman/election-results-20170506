@@ -27,13 +27,18 @@ Note that there are precincts on both Williamson and Hays counties that are in t
 
 ## Williamson Elections
 
-For Williamson county, to get the ASCII dump file, use the [Voter Information Request form](Williamson_Voter_Request_Form_2016.pdf). (We got this after 2016 runoff and haven't used it yet.) 
+For Williamson county, to get the "ASCII dump file", use the [Voter Information Request form](Williamson_Voter_Request_Form_2017.pdf). Yes, this form looks like it is requesting a voter list instead of results, but it is the form we use. Just give as much info as possible in the "Additional comments" field. The form goes to:
 
->Brandon Jenkins  
+>Sue Langley
 >Williamson County - Elections Department  
->brandon.jenkins@wilco.org  
+>susan.langley@wilco.org
+>(512) 943 3719
 
 Again, get a zeros file in advance.
+
+## Hays Elections
+
+On 10/26/2017, Christian talked with Jennifer Anderson, Elections Administrator/Voter Registration for Hays County, (512) 393-7310, to ask for the precinct-level results example in advance of the Nov. 7th election. She is checking.
 
 ## Cleaning and processing results: Travis
 
