@@ -9,7 +9,7 @@ Election results May 6th, 2017 general and joint elections
 
 ## Travis Elections
 
-Arrange to get the `consolidatedexportwithoversandunders` file from [Travis county elections](elections@traviscoutytx.gov). I typically reach out to Ginny Ballard in advance and ask her to ftp it to ftp.statesman.com, though it can be emailed, too.
+Arrange to get the `consolidatedexportwithoversandunders` file from [Travis county elections](mailto:elections@traviscoutytx.gov). I typically reach out to Ginny Ballard in advance and ask her to ftp it to ftp.statesman.com, though it can be emailed, too.
 
 It really, really helps to get a "zeros" file days in advance so you can figure out cleaning and such ahead of election day. There is quite a bit of work to set up in advance.
 
