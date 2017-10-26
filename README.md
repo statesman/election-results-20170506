@@ -13,7 +13,8 @@ Arrange to get the `consolidatedexportwithoversandunders` file from [Travis coun
 
 It really, really helps to get a "zeros" file days in advance so you can figure out cleaning and such ahead of election day. There is quite a bit of work to set up in advance.
 
->Ginny Ballard CERA  
+>Ginny Ballard CERA
+>Ginny.Ballard@traviscountytx.gov
 >Public Information Coordinator  
 >Travis County Clerk – Elections Division  
 >512-854-4177  
